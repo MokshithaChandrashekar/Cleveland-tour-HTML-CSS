@@ -1,0 +1,65 @@
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+}
+
+.cleveland-div {
+    background-image: url("images/Cleveland.jpg");
+    background-size: cover;
+    height: 500px;
+}
+
+.heading {
+    padding-top: 200px;
+    color: White;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.heading > h1, h3 {
+    text-shadow: 0 0 5px black;
+    background-color: darkslateblue;
+
+    padding: 5px;
+    border-radius: 6px;
+}
+
+.things-todo {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: lavender;
+    padding-top: 30px;
+}
+
+
+.img {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+}
+
+.text {
+    width: 250px;
+}
+
+.card {
+    background-color: lightpink;
+    width: 400px;
+    height: 200px;
+    margin: 30px auto;
+    border-radius: 6px;
+    padding: 5px 20px;
+    border-bottom: 6px solid grey;
+}
+
+.card-display {
+    display: flex;
+}
+
+.my-img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
